@@ -202,8 +202,6 @@ def main():
 
     cli.cmdloop()
 
-    ZookeeperCLI(zk, current_path).cmdloop()
-
 
 if __name__ == "__main__":
     main()
